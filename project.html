@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-decoration: none;
+            margin: 0;
+            padding: 0;
+            box-sizing: none;
+    
+        }
+    
+        body{
+            background-color: darkcyan;
+        }
+        header li{
+            display: inline;
+            font-size: 25px;
+            color: orangered;
+            padding: 10px;
+           
+            
+        }
+        header{
+            margin-top: 50px;
+            text-align: right;
+            margin-right: 50px;
+        }
+        header a{
+            color: black;
+            border-radius: 10px;
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+            font-family: serif;
+            margin-top: 5rem;
+        }
+         .one{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 30px 40px;
+        } 
+        .projects{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        h3{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .projects li{
+            margin-left: 100px;
+            font-size: 20px;
+        }
+        img{
+            width: 15rem;
+            height: 10rem;
+        }
+        .subheading{
+            text-align: center;
+            margin-top: 50px;
+        }
+        .subheading p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="portfolio.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <h1>projects</h1> 
+    <div class="subheading">
+        <h2>Check Out My Work</h2>
+        <p>Here are some projects that reflect my skills and passion for front-end development:</p>
+    </div>
+    <div class="projects">
+        <div class="project1">
+            <h3>Front-End Web Developer</h3>
+            <div class="one">
+                <ul>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+
+                </ul>
+                <img src="project1.jpg" alt="">
+            </div>
+        </div>
+        <div class="project2">
+            <h3>UI and UX Design</h3>
+            <div class="one">
+                <ul>
+                    <li>HTML</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+
+                </ul>
+                <img src="project2.jpg" alt="">
+            </div>
+        </div>
+        <div class="project3">
+            <h3>Graphics Design</h3>
+            <div class="one">
+                <ul>
+                    <li>Photoshop</li>
+                
+
+                </ul>
+                <img src="project3.jpg" alt="">
+            </div>
+        </div>
+        <div class="project4">
+            <h3>Figma and Gamma</h3>
+            <div class="one">
+                <ul>
+                    <li>Figma</li>
+                    <li>Gamma</li>
+                    <li>Markup Design</li>
+
+                </ul>
+                <img src="project4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
